@@ -55,7 +55,8 @@
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc><change when="2019-10-30">Checked by releaseChecker script</change>
+        <revisionDesc><change when="2020-05-11">Moved from ELTeC-srp to ELTEC-srp-ext</change>
+            <change when="2019-10-30">Checked by releaseChecker script</change>
             <change when="20190922"/>
         </revisionDesc> 
     </teiHeader>  
