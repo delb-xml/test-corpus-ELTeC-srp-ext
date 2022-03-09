@@ -7,8 +7,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Покојникова жена : ELTeC издање</title>
-                <author ref="viaf:76323147">Станковић, Борисав (1876-1927) <!-- <idno type="wiki">https://sr.wikipedia.org/sr-ec/Борисав_Станковић</idno> --> </author>
+                <title ref='wikidata:Q109336120'>Покојникова жена : ELTeC издање</title>
+                <title xml:lang='en'>The deceased's wife : ELTeC edition</title>
+                <author ref="viaf:76323147 wikidata:Q370392">Станковић, Борисав (1876-1927) <!-- <idno type="wiki">https://sr.wikipedia.org/sr-ec/Борисав_Станковић</idno> --> </author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Универзитетска библиотека "Светозар Марковић"</name>
@@ -102,7 +103,6 @@
 </div>
 </front>
 <body>
-<!-- <div type="novel"> -->
 <pb n="13"/>
 <div type="chapter" xml:id="SRP19022_C1">
 <head>ПОКОЈНИКОВА ЖЕНА.</head>
@@ -276,7 +276,6 @@
 <p>— Како ништа? Не бој се. Ништа нема. Показују јој на мирну, тамну ноћ, кућу,<pb n="61"/> досећујући се за њене ноћне снове и привиђења.</p>
 <p>И после, мајка јој са женама из комшилука ма да Аница није допуштала, силом, догод се за Недељка није удала, венчала, отишла одатле, из покојникове куће, сваке ноћи су седеле око ње, чувале је и као браниле од некога.</p>
 </div>
-<!-- </div> -->
 </body>
 </text>
 </TEI>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
-<?xml-model href="file:/C:/DDD/Cvetana/Projekti/D-reading/Tekstovi/UBSM/Akcija_100romana/eltec-1.xml" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SRP18801"  xml:lang="sr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Школска икона у нашем селу : ELTeC издање</title>
-                <author ref="viaf:17270562">Лазаревић, Лаза К. (1851-1891)</author>
+                <title ref='wikidata:Q109336258'>Школска икона у нашем селу : ELTeC издање</title>
+                <title xml:lang='en'>The school icon in our village : ELTeC edition</title>
+                <author ref="viaf:17270562 wikidata:Q975807">Лазаревић, Лаза К. (1851-1891)</author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Универзитетска библиотека "Светозар Марковић"</name>
@@ -57,7 +61,7 @@
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"></authorGender>
                 <size xmlns="http://distantreading.net/eltec/ns" key="short"></size>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"></canonicity>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"></reprintCount>
                 <!-- izdanja: >43 -->
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"></timeSlot>
             </textDesc>

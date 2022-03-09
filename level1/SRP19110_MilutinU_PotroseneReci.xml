@@ -8,8 +8,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Потрошене речи : ELTeC издање</title>
-                <author ref="viaf:14831361">Ускоковић, Милутин (1884-1915)</author>
+                <title ref='wikidata:Q109336123'>Потрошене речи : ELTeC издање</title>
+                <title xml:lang='en'>Spent words : ELTeC edition</title>
+                <author ref="viaf:14831361 wikidata:Q3314554">Ускоковић, Милутин (1884-1915)</author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Душко Витас и Цветана Крстев</name>

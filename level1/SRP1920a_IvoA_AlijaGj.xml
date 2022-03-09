@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
-<?xml-model href="file:/C:/DDD/Cvetana/Projekti/D-reading/Tekstovi/UBSM/Akcija_100romana/eltec-1.xml" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SRP1920a" xml:lang="sr-Latn">
     <teiHeader>
         <fileDesc>
@@ -51,7 +54,7 @@
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"></authorGender>
                 <size xmlns="http://distantreading.net/eltec/ns" key="short"></size>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"></canonicity>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"></reprintCount>
                 <!-- izdanja: 1920 + još 58 [17 у периоду 1970-2010]  -->
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"></timeSlot>
             </textDesc>
@@ -64,7 +67,7 @@
 <text>
 <front>
 <pb n="1"/>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP1920a_F1">
 <p>IVAN ANDRIĆ</p>
 <p>PUT</p>
 <p>BEOGRAD</p>
@@ -72,7 +75,7 @@
 <p>1920.</p>
 </div>
 <pb n="2"/>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP1920a_F2">
 <p>Tiskara Braće Grujić i Prometnog d.d. Novi Sad</p>
 </div>
 </front>
@@ -264,7 +267,7 @@
 </div>
 </body>
 <back>
-<div type="notes">
+    <div type="notes" xml:id="SRP1920a_B1">
 <note xml:id="note1">Kako muslimani preko dana, uz ramazan, ne puše, ne jedu i ne piju, nisu smjeli ni kršćani napadno pušiti ili jesti ispred njih da im ne izazivaju želju. </note>
 </div>
 </back>

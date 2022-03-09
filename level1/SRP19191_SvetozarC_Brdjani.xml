@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SRP19191" xml:lang="sr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Брђани : ELTeC издање</title>
-        <author ref="viaf:136335">Ћоровић, Светозар (1875-1919)</author>
+        <title ref='wikidata:Q109335974'>Брђани : ELTeC издање</title>
+        <title xml:lang='en'>Highlanders : ELTeC edition</title>
+        <author ref="viaf:136335 wikidata:Q1393103">Ћоровић, Светозар (1875-1919)</author>
+        <respStmt>
+          <resp>Сканирање</resp>
+          <name>Универзитетска библиотека "Светозар Марковић"</name>
+        </respStmt>
         <respStmt>
           <resp>OCR и корекција текста</resp>
           <name>Сергеј Адамов</name>
@@ -23,15 +29,19 @@
         <measure unit="words">22904</measure>
         <measure unit="pages">122</measure>
       </extent>
-      <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-10-30"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Укључено у ELTeC корпус 2019-07-18--></publicationStmt>
-      <sourceDesc><bibl type="firstEdition">
+      <publicationStmt>
+        <p>Укључено у ELTeC корпус <date>2019-07-18</date></p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="firstEdition">
           <author>Ћоровић, Светозар</author>
           <title>Брђани</title>
           <pubPlace>Београд - Сарајево</pubPlace>
           <publisher>И. Ђ. Ђурђевић</publisher>
           <date>1919</date>
           <idno type="COBISS-SR.ID">30462727</idno>
-        </bibl></sourceDesc>
+        </bibl>
+      </sourceDesc>
     </fileDesc>
     <encodingDesc n="eltec-1">
       <p/>
@@ -42,23 +52,22 @@
         <language ident="sr" usage="100">српски</language>
       </langUsage>
       <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"></authorGender>
+        <size xmlns="http://distantreading.net/eltec/ns" key="short"></size>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"></reprintCount>
         <!-- izdanja: 1919 -->
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"></timeSlot>
       </textDesc>
     </profileDesc>
-    <revisionDesc><change when="2020-05-11">Moved from ELTeC-srp to ELTeC-srp-ext</change>
-	<change when="2019-10-30">Checked by releaseChecker script</change>
-      <change when="20190726"/>
+    <revisionDesc>
+      <change when="20190726"></change>
     </revisionDesc>
   </teiHeader>
   <text>
     <pb n="1"/>
     <pb n="2"/>
     <front>
-      <div type="titlepage">
+      <div type="titlepage" xml:id="SRP19191_F1">
         <pb n="3"/>
         <p>СВЕТ. ЋОРОВИЋ</p>
         <p>БРЂАНИ</p>
@@ -66,15 +75,14 @@
         <p>ИЗДАО И. Ђ. ЂУРЂЕВИЋ БЕОГРАД - САРАЈЕВО.</p>
       </div>
       <pb n="4"/>
-      <div type="liminal">
+      <div type="liminal" xml:id="SRP19191_F2">
         <pb n="5"/>
         <p>Брату Владимиру</p>
       </div>
       <pb n="6"/>
     </front>
     <body>
- <!--     <div type="novel"> -->
-        <pb n="7"/>
+         <pb n="7"/>
         <div type="chapter" xml:id="SRP19191_C1">
 		<head>I.</head>
 		<p>Лакан потера овце низ брдо, пребаци кратко гуњче преко рамена и, засецајући ножићем у млада стабла јасика и бреза које се згуснуле око путање, поче безбрижно звиждукати. Нека чупава, црна птица, поплашена, снажно залепрша јаким крилима, писну и изгуби се негде међу мрачним и раскиданим литицама. И као да се црн траг расу за њом кроз ону полутаму и пови се над узнемиреним брезама. Негде из даљине као да се проби још јачи, оштрији писак. Лакан задрхта. Брзо обуче гуњче, скупи се и грчевито стиште за држак од ножића као да би да се брани од некога. Поплашено погледа око себе. Погледа према литицама куд је нестало тице, па се бржебоље прекрсти. Боже, да ово изађе на добро! А ова велика, безимена тица, кажу, увек на зло слути и доноси несрећу ономе ко је угледа. Боже, помози сада или никада!</p>
@@ -500,7 +508,7 @@
           <p>— Еј, јадна царевино, на што ли си спала!</p>
 <p>Сутрадан, рано, звоно су однели из села.</p>
 </div>
-        <div type="chapter">
+        <div n="10">
 		<head>X.</head>
 		<p>Жандари почеше одмах да робе и. плене и по кућама. Где год шта бакарно нађу носе и предају кириџијама, које ће гонити. Котлове, тепсије, таве, ибрике, чак и звекире с понеких врата, Узалуд сељани молили, богорадили, узалуд напомињали како су они од <hi>царске вјере</hi> а нису бунтовници. Жандари нису хтели ни слушати. А кад се неки усудише да слободније протестирају, запретише да ће пуцати.</p>
 		<p>У Мартиновој кући жестоко се сукобише са Мандом. Стара, чисмена домаћица као да се родила са неким стварима у кући и нипошто, ни за живу главу, не би се растала с њима. А сад мора да даје не једну него готово све, а сама да остане без ичега. Као квочка кад брани пилиће, накострешила се крај огњишта, подбочила се рукама о кукове, и нагевши се према жкндарима, пита поругљиво:</p>
@@ -878,10 +886,9 @@
           <p>Зарони лице у прегачу, сакри га. Први пут у четири године облише је обилате сузе <pb n="122"/> као пролетња дажда.... И она је јецала као дете, не бринући се више: хоће ли ко чути или видети?</p>
           <p>На болесничкој постељи.</p>
         </div>
-<!--      </div> -->
     </body>
     <back>
-      <div type="liminal">
+      <div type="liminal" xml:id="SRP19191_B1">
         <p>1919.</p>
         <p>— Крај. —</p>
       </div>

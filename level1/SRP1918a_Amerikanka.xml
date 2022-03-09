@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
-<?xml-model href="file:/C:/DDD/Cvetana/Projekti/D-reading/Tekstovi/UBSM/Akcija_100romana/eltec-1.xml" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- <?xml-model href="file:/C:/DDD/Cvetana/Projekti/D-reading/Tekstovi/UBSM/Akcija_100romana/eltec-1.xml" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SRP1918a" xml:lang="sr-Cyrl">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Американка : ELTeC издање</title>
-                <author ref="viaf:70015495">Димитријевић, Јелена (1862–1945)</author>
+                <title ref='wikidata:Q109335971'>Американка : ELTeC издање</title>
+                <title xml:lang='en'>The American woman : ELTeC edition</title>
+                <author ref="viaf:70015495 wikidata:Q3625974">Димитријевић, Јелена (1862–1945)</author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Универзитетска библиотека "Светозар Марковић"</name>
@@ -51,7 +56,7 @@
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"></authorGender>
                 <size xmlns="http://distantreading.net/eltec/ns" key="short"></size>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"></canonicity>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"></reprintCount>
                 <!-- izdanja: 1918, 2015, 2018, 2019 [0 у периоду 1970-2010]  -->
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"></timeSlot>
             </textDesc>
@@ -64,13 +69,13 @@
 <text>
 <front>
 <pb n="1"/>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP1918a_F1">
 <p>ЈЕЛЕНА Ј. ДИМИТРИЈЕВИЋ.</p>
 <p>АМЕРИКАНКА</p>
 <p>ИЗДАЊЕ И. Ђ. ЂУРЂЕВИЋА У САРАЈЕВУ</p>
 </div>
 <pb n="2"/>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP1918a_F2">
 <p>У САРАЈЕВУ 1918.</p>
 <p>Штампарија „Босанске Поште“</p>
 </div>
@@ -169,7 +174,7 @@
 </div>
 </body>
 <back>
-<div type="notes">
+    <div type="notes" xml:id="SRP1918a_B1">
 <note xml:id="SRP1918a_N1">Овај правилник штампаће се у засебну књигу ако се могне.</note>
 </div>
 </back>

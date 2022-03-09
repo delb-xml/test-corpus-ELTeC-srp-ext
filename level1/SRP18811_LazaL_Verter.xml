@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" ?> -->
-<?xml-model href="file:/C:/DDD/Cvetana/Projekti/D-reading/Tekstovi/UBSM/Akcija_100romana/eltec-1.xml" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SRP18811"  xml:lang="sr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Вертер : ELTeC издање</title>
-                <author ref="viaf:17270562">Лазаревић, Лаза К. (1851-1891)</author>
+                <title ref='wikidata:Q109335976'>Вертер : ELTeC издање</title>
+                <title xml:lang='en'>Verter : ELTeC edition</title>
+                <author ref="viaf:17270562 wikidata:Q975807">Лазаревић, Лаза К. (1851-1891)</author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Универзитетска библиотека "Светозар Марковић"</name>
@@ -57,7 +61,7 @@
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"></authorGender>
                 <size xmlns="http://distantreading.net/eltec/ns" key="short"></size>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"></canonicity>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"></reprintCount>
                 <!-- izdanja: >21 -->
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"></timeSlot>
             </textDesc>
@@ -69,23 +73,24 @@
         
 <text>
 <front>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP18811_F1">
 <p>2. СРПСКИ КЛАСИЧНИ ПИСЦИ 2.</p>
 <p>ДЕЛА</p>
 <p>ЛАЗЕ К. ЛАЗАРЕВИЋА</p>
 <p>„НАПРЕДАК“ - ЗЕМУН.</p>
 </div>
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP18811_F2">
 <p>БЕОГРАД, 1912.</p>
 <p>НОВА ШТАМПАРИЈА - ДАВИДОВИЋ, ДЕЧАНСКА БР. 14.</p>
 <p>ЉУБ. М. ДАВИДОВИЋА</p>
 </div>
 <!-- предговор -->
-<div type="titlepage">
+    <div type="titlepage" xml:id="SRP18811_F3">
 <p>ПРИПОВЕТКЕ</p>
 </div>
 </front>
 <body>
+    <div type="chapter" xml:id="SRP18811_C0">
 <pb n="148"/>
 <head>ВЕРТЕР.</head>
 <p>Бања и рат имају нешто заједничко: за рат се, наиме, чине спреме годинама, а и за бању. У рату се троши без рачуна и истреса се државна каса немилице, за бању се такође потписују менице лако као љубавна писма. И у рату и у бањи живи се на парче, и свако гледа да оно мало живота — до смрти или до повратка из бање — утуче на најрасипљивији начин. Најзад, по свршеном послу прави се с непријатељем, односио са женом, уговор мира, и после се приступа смањивању плате чиновницима и тоалете жени.</p>
@@ -460,12 +465,13 @@
 <p>— Гледам ја, шта ће! А он: хајд’, хајд’, па управо до крста. Скиде онда капу, клече, прекрсти се, па пољуби најпре крст, па после земљу. После опет седе на кола, па терај даље! Ђаво га знао, шта му је!</p>
 <p>— Како је изгледао, очију ти?</p>
 <p>Он ми у длаку описа Јанка.</p>
+    </div>
 </body>
 <back>
-<div type="notes">
+    <div type="notes" xml:id="SRP18811_B1">
 <note xml:id="N1">Карл Лемке, немачки естетичар, знатан „Популарном естетиком“ (1885), која је преведена на више језика.</note>
 <note xml:id="N2">Енглески писац Макперсон написао је по народним предањима скотским коло епских песама, које је издао као да су од старога келтскога Омира - Осијана.</note>
-<note xml:id="N3">Latinsko ime („mačka“) роду +++грабљивих+++ +++сисара+++ (лав, ***маčkа — домаћа и дивља, — тигар, пантер, јагуар и т. д..</note>
+<note xml:id="N3">Latinsko ime („mačka“) роду грабљивих сисара (лав, маčkа — домаћа и дивља, — тигар, пантер, јагуар и т. д..</note>
 </div>
 </back>	
 </text>

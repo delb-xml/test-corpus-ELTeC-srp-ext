@@ -7,8 +7,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Каваљер Лаза : карактерна црта из друштвеног живота : ELTeC издање</title>
-                <author ref="viaf:22163155990601312095">Ђорић, Никола В. (1859-1913)</author>
+                <title ref='wikidata:Q109336092'>Каваљер Лаза : карактерна црта из друштвеног живота : ELTeC издање</title>
+                <title xml:lang='en'>Cavalier Laza: a character sketch from social life : ELTeC edition</title>
+                <author ref="viaf:22163155990601312095 wikidata:Q108983665">Ђорић, Никола В. (1859-1913)</author>
                 <respStmt>
                     <resp>Сканирање</resp>
                     <name>Универзитетска библиотека "Светозар Марковић"</name>

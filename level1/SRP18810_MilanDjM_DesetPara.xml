@@ -8,8 +8,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Десет пара: прича из живота у вароши : ELTeC издање</title>
-        <author ref="viaf:64038897">Милићевић, Милан Ђ. (1831-1908)</author>
+        <title ref='wikidata:Q109336070'>Десет пара: прича из живота у вароши : ELTeC издање</title>
+        <title xml:lang='en'>Ten cents : a story from life in the town: ELTeC edition : ELTeC edition</title>
+        <author ref="viaf:64038897 wikidata:Q2980829">Милићевић, Милан Ђ. (1831-1908)</author>
         <respStmt>
           <resp>Сканирање</resp>
           <name>Универзитетска библиотека "Светозар Марковић"</name>

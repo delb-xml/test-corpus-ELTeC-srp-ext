@@ -8,8 +8,9 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Рајко од Расине: приповетка с краја XVII века : ELTeC издање</title>
-    <author ref="viaf:42116339">Мијатовић, Чедомиљ (1842-1932)</author>
+    <title ref='wikidata:Q109336234'>Рајко од Расине: приповетка с краја XVII века : ELTeC издање</title>
+    <title xml:lang='en'>Rajko from Rasina: a short story from the end of 17th century : ELTeC edition</title>
+    <author ref="viaf:42116339 wikidata:Q8079697">Мијатовић, Чедомиљ (1842-1932)</author>
     <respStmt>
      <resp>Сканирање</resp>
      <name>Универзитетска библиотека "Светозар Марковић"</name>
